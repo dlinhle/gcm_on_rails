@@ -43,6 +43,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = "1.8.10"
   s.summary = "Google Cloud Messaging for Android on Rails"
 
+  s.add_runtime_dependency('protected_attributes') # TODO change to use Rails 4 attribute protection
+
   if s.respond_to? :specification_version then
     s.specification_version = 3
 

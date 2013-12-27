@@ -2,6 +2,7 @@ source "http://rubygems.org"
 
 gem 'configatron'
 gem 'json'
+gem 'protected_attributes' # TODO change to use Rails 4 attribute protection
 
 group :development do
   gem 'rdoc', '~> 3.12'
